@@ -1,0 +1,221 @@
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>1億2千万分の1 — 日本に生まれる人生シミュレーション</title>
+<meta name="description" content="日本のどこかに、ランダムに生まれる。都道府県・家庭・名字は統計どおりに決まり、一度きりの人生が日本の統計で進んでいく人生シミュレーション。">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="1億2千万分の1">
+<meta property="og:title" content="1億2千万分の1 — 日本に生まれる人生シミュレーション">
+<meta property="og:description" content="どこに、どの家に生まれるかは選べない。都道府県・家庭・名字は統計どおりに決まり、日本の統計で進んでいく一度きりの人生。">
+<meta property="og:url" content="https://1injp.satoru.net/">
+<meta property="og:image" content="https://1injp.satoru.net/og.png?v=1792047381">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta property="og:locale" content="ja_JP">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="1億2千万分の1 — 日本に生まれる人生シミュレーション">
+<meta name="twitter:description" content="どこに、どの家に生まれるかは選べない。日本の統計どおりに進む、一度きりの人生。">
+<meta name="twitter:image" content="https://1injp.satoru.net/og.png?v=1792047381">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=Shippori+Mincho:wght@500;700;800&family=Zen+Kurenaido&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css?v=1792068820">
+</head>
+<body>
+<header class="top">
+  <a class="brand" href="#" data-go="home"><span class="brand-num">1億2千万</span><span class="brand-sub">分の1</span></a>
+  <nav>
+    <a href="#" data-go="data"><span class="lg">何が実際のデータなのか</span><span class="sm">データ</span></a>
+    <a href="/lives"><span class="lg">みんなの人生</span><span class="sm">みんな</span></a>
+    <a href="/rank"><span class="lg">ランキング</span><span class="sm">順位</span></a>
+    <a href="#" data-go="past"><span class="lg">過去の人生</span><span class="sm">過去</span></a>
+    <button class="theme" id="soundBtn" aria-label="音">♪</button>
+    <button class="theme" id="themeBtn" aria-label="画面の明るさ">◐</button>
+  </nav>
+</header>
+
+<main>
+  <!-- ランディング -->
+  <section id="home" class="view active">
+    <div class="hero">
+      <div class="jmap home" id="homeMap" aria-hidden="true"></div>
+      <div class="hometoast" id="homeToast" aria-live="polite"></div>
+      <p class="eyebrow">日本に生まれる人生シミュレーション</p>
+      <h1><span class="big">1億2千万</span>分の<span class="one">1</span></h1>
+      <p class="lead"></p>
+      <p class="fast muted small">実際の速さで表示しています</p>
+      <div class="counters">
+        <div><span id="cBirth">0</span><small>このページを開いてから<br>日本で生まれた人</small></div>
+        <div><span id="cDeath">0</span><small>このページを開いてから<br>日本で亡くなった人</small></div>
+      </div>
+      <div class="opts" hidden>
+        <label>あなたの実際の出身地（比較用・任意）
+          <select id="optReal"><option value="">選ばない</option></select>
+        </label>
+      </div>
+      <div class="erapick" id="eraPick" role="radiogroup" aria-label="生まれる時代">
+        <p class="eralead">生まれる時代</p>
+        <button type="button" data-era="modern" class="on" role="radio" aria-checked="true"><b>現代</b><small>2026年〜</small></button>
+        <button type="button" data-era="heisei" role="radio" aria-checked="false"><b>平成</b><small>1990〜2018年</small></button>
+        <button type="button" data-era="showa2" role="radio" aria-checked="false"><b>昭和後期</b><small>1980〜89年</small></button>
+        <button type="button" data-era="showa" role="radio" aria-checked="false"><b>昭和</b><small>1950〜65年</small></button>
+        <button type="button" data-era="senji" role="radio" aria-checked="false"><b>戦時中</b><small>1920〜26年</small></button>
+        <button type="button" data-era="random" class="erarand" role="radio" aria-checked="false"><b>ランダム</b><small>ルーレットで決める</small></button>
+      </div>
+      <div class="starts">
+        <button class="cta" id="btnResume" hidden>続きから</button>
+        <button class="cta" id="btnBorn">生まれる</button>
+      </div>
+      <p id="resumeInfo" class="muted small" hidden></p>
+      <p class="homelinks"><a href="/rank">人生ランキング</a><a href="/lives">みんなの人生</a></p>
+      <p class="warn">重い出来事も統計どおりに起こります。15歳以上向け。</p>
+    </div>
+  </section>
+
+  <!-- 誕生 -->
+  <section id="birth" class="view">
+    <div class="birth-wrap">
+      <div class="mapbox">
+        <div class="mapwrap">
+        <div id="jmap" class="jmap" aria-label="日本地図"></div>
+          <div class="mapcap" id="mapCap" hidden></div>
+        </div>
+        <p class="maplegend" id="mapLegend">色の濃さは都道府県別の年間出生数</p>
+      </div>
+      <div class="birthcard" id="birthCard" hidden>
+        <p class="eyebrow">出生届</p>
+        <h2 id="bPlace" class="sr"></h2>
+        <p id="bTime" class="muted"></p>
+        <div class="namebox">
+          <label>名字<span class="yomi" id="rSei"></span><input id="inSei" maxlength="6"></label>
+          <label>名前<span class="yomi" id="rMei"></span><input id="inMei" maxlength="6"></label>
+        </div>
+        <p id="bSurnameNote" class="muted small"></p>
+        <h3>あなたの家（親ガチャ）</h3>
+        <div id="bScene"></div>
+        <dl id="bFamily" class="famlist"></dl>
+        <p id="bCompare" class="muted small"></p>
+        <button class="cta" id="btnStart">人生を始める</button>
+      </div>
+    </div>
+    <button type="button" class="scrollhint" id="scrollHint" hidden><span>あなたの家とプロフィール</span><b>↓</b></button>
+  </section>
+
+  <!-- 人生 -->
+  <section id="life" class="view">
+    <div class="lifebar-wrap"><div class="lifebar" id="lifebar">
+      <div class="sbchar" id="sbChar"></div>
+      <div class="sbage"><b id="sbAge">0</b>歳<small id="sbYear"></small></div>
+      <button id="btnPlay" class="ghost">一時停止</button>
+      <div class="speed" id="speedBtns"></div>
+      <button id="btnNext" class="ghost">次の1年<span class="lbl">へ</span> ▸</button>
+      <div class="yearbar" aria-hidden="true"><i id="yearFill"></i></div><small class="sbpace" id="sbPace"></small>
+    </div><div class="sbdate"><span id="sbDate"></span></div></div>
+    <div class="life-grid">
+      <div class="col-main">
+        <div class="lifehead">
+          <div>
+            <h2 id="lName"></h2>
+            <p id="lWhere" class="muted"></p>
+            <div class="profrow"><button type="button" class="profbtn" id="btnProf">👤 いまのプロフ</button><div class="cmdbar" id="cmdBar" aria-label="人生の方針"></div></div>
+          </div>
+          <div class="pxstage"><canvas id="pxStage" aria-hidden="true"></canvas><span id="pxLabel"></span></div>
+          <div class="agebox"><span id="lAge">0</span><small>歳</small><span id="lYear" class="muted"></span></div>
+        </div>
+        <p id="lStatus" class="status"></p>
+        <div class="stats" id="stats"></div>
+        <div class="money" id="money"></div>
+        <div class="controls" hidden>
+          <label class="auto"><input type="checkbox" id="chkAuto"> おまかせ</label>
+          <button id="btnNote" class="ghost">♡ いまの気持ち</button>
+          <label class="focus">重点
+            <select id="selFocus"></select>
+          </label>
+        </div>
+        <div class="scene" id="scene"><div class="scene-il" id="sceneIl"></div><p id="sceneCap"></p></div>
+        <ol id="feed" class="feed" aria-live="polite"></ol>
+      </div>
+      <aside class="col-side">
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-tab="fam">家族と暮らし</button>
+          <button class="tab" data-tab="map">人生地図</button>
+          <button class="tab" data-tab="surv">生存曲線</button>
+          <button class="tab" data-tab="peers">同じ日に生まれた人</button>
+          <button class="tab" data-tab="stat">統計・研究</button>
+        </div>
+        <div class="tabpane active" id="tab-fam"></div>
+        <div class="tabpane" id="tab-map"></div>
+        <div class="tabpane" id="tab-surv"></div>
+        <div class="tabpane" id="tab-peers"></div>
+        <div class="tabpane" id="tab-stat"><div id="statLive"></div><div id="statLab"></div><div id="statNotes"></div></div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- 最期 -->
+  <section id="end" class="view">
+    <div class="endwrap" id="endBody"></div>
+  </section>
+
+  <!-- データ -->
+  <section id="data" class="view">
+    <div class="doc" id="dataBody"></div>
+  </section>
+
+  <!-- 過去の人生 -->
+  <section id="past" class="view">
+    <div class="doc" id="pastBody"></div>
+  </section>
+</main>
+<footer class="foot">統計：厚生労働省・総務省・文部科学省・内閣府ほか（<a href="#" data-go="data">何が実際のデータなのか</a>）／地図：地球地図日本（国土地理院）を加工して作成／市区町村位置：Geolonia 住所データ（CC BY 4.0）を加工<br>本家：<a href="https://1in8b.life/ja/" target="_blank" rel="noopener">80億分の1（1in8b.life）</a>をもとにした日本版です</footer>
+
+<!-- 決断 -->
+<div class="modal" id="modal" hidden>
+  <div class="sheet" role="dialog" aria-modal="true" aria-labelledby="mTitle">
+    <button type="button" class="mclose" id="mHold" aria-label="いったん閉じる（あとで答える）" title="いったん閉じる（あとで答える）">×</button>
+    <p class="eyebrow" id="mAge"></p>
+    <h3 id="mTitle"></h3>
+    <p id="mText"></p>
+    <div id="mHelp"></div>
+    <div id="mOpts" class="mopts"></div>
+    <div id="mNote" class="mnote"></div>
+    <div id="mPhone" class="mphone"></div>
+  </div>
+</div>
+<div class="modal dlg" id="dlg" hidden>
+  <div class="sheet" role="alertdialog" aria-modal="true" aria-labelledby="dlgTitle">
+    <h3 id="dlgTitle"></h3>
+    <p id="dlgText"></p>
+    <div class="dlgbtns"><button type="button" id="dlgNg" class="ghost"></button><button type="button" id="dlgOk"></button></div>
+  </div>
+</div>
+<div class="pausebig" id="pauseBig" hidden>
+  <div class="pcard">
+    <p class="pico" aria-hidden="true">❚❚</p>
+    <p class="ptitle">一時停止中</p>
+    <p class="psub" id="pauseSub"></p>
+    <button type="button" id="pauseGo">▶ 再開する</button>
+  </div>
+</div>
+<div class="heldbar" id="heldBar" hidden>
+  <span class="muted small">保留中の問い</span><b id="heldTitle"></b>
+  <button type="button" id="heldGo">答える</button>
+</div>
+
+<script src="data.js?v=1792068820"></script>
+<script src="japanmap.js?v=1792068820"></script>
+<script src="data_real.js?v=1792068820"></script>
+<script src="illust.js?v=1792068820"></script>
+<script src="pxscenes.js?v=1792068820"></script>
+<script src="data_heisei.js?v=5"></script>
+<script src="data_showa.js?v=25"></script>
+<script src="engine.js?v=1792068820"></script>
+<script src="clair.js?v=1792068820" defer></script>
+<script src="audio.js?v=1792068820"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js" defer></script>
+<script src="stork3d.js?v=1792068820" defer></script>
+<script defer src="app.js?v=1792068820"></script>
+</body>
+</html>

@@ -1,0 +1,2980 @@
+{
+ "meta": {
+  "generated": "2026-10-15",
+  "units": {
+   "avg_salary_man": "万円/年",
+   "monthly_*_k": "千円/月",
+   "minwage": "円/時"
+  },
+  "difficulty": "就職偏差値 approx 45-75 (就活系サイト相場観, from memory)",
+  "ranking_caveat": "マイナビ・日経は全大学母集団のため総合商社・デベロッパー等は100位圏外になりやすい; 難関大対象の東洋経済/ワンキャリア系では上位常連 (difficulty で表現)"
+ },
+ "companies": [
+  {
+   "name": "三菱商事",
+   "industry": "総合商社",
+   "avg_salary_man": 2030,
+   "new_grad_hires_per_year": 140,
+   "difficulty": 75,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "三井物産",
+   "industry": "総合商社",
+   "avg_salary_man": 1900,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 74,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "伊藤忠商事",
+   "industry": "総合商社",
+   "avg_salary_man": 1800,
+   "new_grad_hires_per_year": 140,
+   "difficulty": 74,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 文系3位/理系35位"
+  },
+  {
+   "name": "住友商事",
+   "industry": "総合商社",
+   "avg_salary_man": 1750,
+   "new_grad_hires_per_year": 130,
+   "difficulty": 73,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "丸紅",
+   "industry": "総合商社",
+   "avg_salary_man": 1590,
+   "new_grad_hires_per_year": 130,
+   "difficulty": 72,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "三菱UFJ銀行",
+   "industry": "メガバンク",
+   "avg_salary_man": 800,
+   "new_grad_hires_per_year": 1000,
+   "difficulty": 64,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系29位/理系100位; オープン/特定コース別採用"
+  },
+  {
+   "name": "三井住友銀行",
+   "industry": "メガバンク",
+   "avg_salary_man": 880,
+   "new_grad_hires_per_year": 600,
+   "difficulty": 65,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系77位"
+  },
+  {
+   "name": "みずほフィナンシャルグループ",
+   "industry": "メガバンク",
+   "avg_salary_man": 780,
+   "new_grad_hires_per_year": 600,
+   "difficulty": 63,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系9位/理系66位"
+  },
+  {
+   "name": "りそなグループ",
+   "industry": "銀行",
+   "avg_salary_man": 720,
+   "new_grad_hires_per_year": 500,
+   "difficulty": 58,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系60位"
+  },
+  {
+   "name": "野村證券",
+   "industry": "証券",
+   "avg_salary_man": 1100,
+   "new_grad_hires_per_year": 500,
+   "difficulty": 64,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系50位; 成果給で幅大"
+  },
+  {
+   "name": "東京海上日動火災保険",
+   "industry": "損害保険",
+   "avg_salary_man": 1300,
+   "new_grad_hires_per_year": 500,
+   "difficulty": 68,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系55位; 全国型"
+  },
+  {
+   "name": "損害保険ジャパン",
+   "industry": "損害保険",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 500,
+   "difficulty": 63,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系41位"
+  },
+  {
+   "name": "日本生命保険",
+   "industry": "生命保険",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 200,
+   "difficulty": 64,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 文系44位; 総合職基準(営業職除く)"
+  },
+  {
+   "name": "第一生命保険",
+   "industry": "生命保険",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 200,
+   "difficulty": 62,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系36位; 総合職基準"
+  },
+  {
+   "name": "明治安田生命保険",
+   "industry": "生命保険",
+   "avg_salary_man": 850,
+   "new_grad_hires_per_year": 200,
+   "difficulty": 61,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系21位; 総合職基準"
+  },
+  {
+   "name": "ソニーグループ",
+   "industry": "電機",
+   "avg_salary_man": 1100,
+   "new_grad_hires_per_year": 350,
+   "difficulty": 70,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系19位; 2026卒理系1位"
+  },
+  {
+   "name": "日立製作所",
+   "industry": "電機",
+   "avg_salary_man": 950,
+   "new_grad_hires_per_year": 900,
+   "difficulty": 66,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系35位"
+  },
+  {
+   "name": "パナソニック",
+   "industry": "電機",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 700,
+   "difficulty": 64,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 文系39位/理系10位"
+  },
+  {
+   "name": "三菱電機",
+   "industry": "電機",
+   "avg_salary_man": 850,
+   "new_grad_hires_per_year": 800,
+   "difficulty": 63,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系28位"
+  },
+  {
+   "name": "キヤノン",
+   "industry": "電機・精密",
+   "avg_salary_man": 800,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 62,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系87位/理系12位"
+  },
+  {
+   "name": "キーエンス",
+   "industry": "電機・FA",
+   "avg_salary_man": 2060,
+   "new_grad_hires_per_year": 300,
+   "difficulty": 72,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外; 平均年収日本トップ級"
+  },
+  {
+   "name": "東京エレクトロン",
+   "industry": "半導体製造装置",
+   "avg_salary_man": 1400,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 68,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系62位"
+  },
+  {
+   "name": "ダイキン工業",
+   "industry": "空調機器",
+   "avg_salary_man": 850,
+   "new_grad_hires_per_year": 500,
+   "difficulty": 64,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 文系30位/理系6位"
+  },
+  {
+   "name": "トヨタ自動車",
+   "industry": "自動車",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 1500,
+   "difficulty": 67,
+   "hq_prefecture": "愛知県",
+   "ranking_note": "マイナビ・日経2027卒 文系8位/理系8位; 事務技術職+技能職"
+  },
+  {
+   "name": "デンソー",
+   "industry": "自動車部品",
+   "avg_salary_man": 830,
+   "new_grad_hires_per_year": 1000,
+   "difficulty": 64,
+   "hq_prefecture": "愛知県",
+   "ranking_note": "マイナビ・日経2027卒 文系18位/理系7位"
+  },
+  {
+   "name": "本田技研工業",
+   "industry": "自動車",
+   "avg_salary_man": 830,
+   "new_grad_hires_per_year": 600,
+   "difficulty": 64,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系28位/理系4位"
+  },
+  {
+   "name": "日産自動車",
+   "industry": "自動車",
+   "avg_salary_man": 880,
+   "new_grad_hires_per_year": 500,
+   "difficulty": 62,
+   "hq_prefecture": "神奈川県",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外; 業績悪化で採用縮小傾向"
+  },
+  {
+   "name": "スズキ",
+   "industry": "自動車",
+   "avg_salary_man": 680,
+   "new_grad_hires_per_year": 500,
+   "difficulty": 58,
+   "hq_prefecture": "静岡県",
+   "ranking_note": "マイナビ・日経2027卒 文系72位"
+  },
+  {
+   "name": "マツダ",
+   "industry": "自動車",
+   "avg_salary_man": 700,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 58,
+   "hq_prefecture": "広島県",
+   "ranking_note": "マイナビ・日経2027卒 理系79位"
+  },
+  {
+   "name": "アイシン",
+   "industry": "自動車部品",
+   "avg_salary_man": 780,
+   "new_grad_hires_per_year": 700,
+   "difficulty": 60,
+   "hq_prefecture": "愛知県",
+   "ranking_note": "マイナビ・日経2027卒 文系71位/理系25位"
+  },
+  {
+   "name": "三菱重工業",
+   "industry": "重工",
+   "avg_salary_man": 950,
+   "new_grad_hires_per_year": 900,
+   "difficulty": 64,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系59位/理系5位"
+  },
+  {
+   "name": "NTTデータ",
+   "industry": "IT・SIer",
+   "avg_salary_man": 870,
+   "new_grad_hires_per_year": 600,
+   "difficulty": 65,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系78位/理系11位"
+  },
+  {
+   "name": "野村総合研究所",
+   "industry": "IT・コンサル",
+   "avg_salary_man": 1320,
+   "new_grad_hires_per_year": 600,
+   "difficulty": 69,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系97位"
+  },
+  {
+   "name": "富士通",
+   "industry": "IT・電機",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 900,
+   "difficulty": 62,
+   "hq_prefecture": "神奈川県",
+   "ranking_note": "マイナビ・日経2027卒 理系32位"
+  },
+  {
+   "name": "NEC",
+   "industry": "IT・電機",
+   "avg_salary_man": 860,
+   "new_grad_hires_per_year": 600,
+   "difficulty": 61,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系41位"
+  },
+  {
+   "name": "KDDI",
+   "industry": "通信",
+   "avg_salary_man": 990,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 66,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系34位/理系3位"
+  },
+  {
+   "name": "NTTドコモ",
+   "industry": "通信",
+   "avg_salary_man": 850,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 66,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系45位"
+  },
+  {
+   "name": "ソフトバンク",
+   "industry": "通信",
+   "avg_salary_man": 830,
+   "new_grad_hires_per_year": 600,
+   "difficulty": 62,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "楽天グループ",
+   "industry": "IT・EC",
+   "avg_salary_man": 800,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 60,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "LINEヤフー",
+   "industry": "IT・Web",
+   "avg_salary_man": 1000,
+   "new_grad_hires_per_year": 300,
+   "difficulty": 65,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "Sky",
+   "industry": "IT・ソフトウェア",
+   "avg_salary_man": 650,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 58,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 文系10位/理系2位; 非上場・年収は推定"
+  },
+  {
+   "name": "SHIFT",
+   "industry": "IT・ソフトウェアテスト",
+   "avg_salary_man": 680,
+   "new_grad_hires_per_year": 600,
+   "difficulty": 55,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系11位/理系21位"
+  },
+  {
+   "name": "サイバーエージェント",
+   "industry": "IT・広告",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 250,
+   "difficulty": 64,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系62位; ranking=Cygames(子会社)"
+  },
+  {
+   "name": "味の素",
+   "industry": "食品",
+   "avg_salary_man": 1050,
+   "new_grad_hires_per_year": 100,
+   "difficulty": 70,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系2位/理系1位; 2027卒文系2位/理系1位"
+  },
+  {
+   "name": "サントリーホールディングス",
+   "industry": "飲料・食品",
+   "avg_salary_man": 1100,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 70,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 文系19位/理系15位; 非上場HD・推定"
+  },
+  {
+   "name": "アサヒビール",
+   "industry": "飲料",
+   "avg_salary_man": 1000,
+   "new_grad_hires_per_year": 80,
+   "difficulty": 68,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系32位/理系16位"
+  },
+  {
+   "name": "キリンホールディングス",
+   "industry": "飲料",
+   "avg_salary_man": 1000,
+   "new_grad_hires_per_year": 100,
+   "difficulty": 68,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系50位"
+  },
+  {
+   "name": "明治",
+   "industry": "食品",
+   "avg_salary_man": 800,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 66,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系68位/理系23位"
+  },
+  {
+   "name": "日清食品",
+   "industry": "食品",
+   "avg_salary_man": 850,
+   "new_grad_hires_per_year": 100,
+   "difficulty": 67,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系34位"
+  },
+  {
+   "name": "東日本旅客鉄道（JR東日本）",
+   "industry": "鉄道",
+   "avg_salary_man": 730,
+   "new_grad_hires_per_year": 1500,
+   "difficulty": 62,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系14位/理系18位; 総合職+プロフェッショナル"
+  },
+  {
+   "name": "東海旅客鉄道（JR東海）",
+   "industry": "鉄道",
+   "avg_salary_man": 730,
+   "new_grad_hires_per_year": 1000,
+   "difficulty": 63,
+   "hq_prefecture": "愛知県",
+   "ranking_note": "マイナビ・日経2027卒 文系52位/理系31位"
+  },
+  {
+   "name": "西日本旅客鉄道（JR西日本）",
+   "industry": "鉄道",
+   "avg_salary_man": 650,
+   "new_grad_hires_per_year": 900,
+   "difficulty": 60,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 文系49位/理系74位"
+  },
+  {
+   "name": "東京電力ホールディングス",
+   "industry": "電力",
+   "avg_salary_man": 790,
+   "new_grad_hires_per_year": 1000,
+   "difficulty": 60,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外; グループ計"
+  },
+  {
+   "name": "関西電力",
+   "industry": "電力",
+   "avg_salary_man": 840,
+   "new_grad_hires_per_year": 600,
+   "difficulty": 61,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "中部電力",
+   "industry": "電力",
+   "avg_salary_man": 800,
+   "new_grad_hires_per_year": 500,
+   "difficulty": 60,
+   "hq_prefecture": "愛知県",
+   "ranking_note": "マイナビ・日経2027卒 文系74位"
+  },
+  {
+   "name": "東京ガス",
+   "industry": "ガス",
+   "avg_salary_man": 770,
+   "new_grad_hires_per_year": 250,
+   "difficulty": 63,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "三菱ケミカル",
+   "industry": "化学",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 300,
+   "difficulty": 63,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系64位"
+  },
+  {
+   "name": "信越化学工業",
+   "industry": "化学",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 200,
+   "difficulty": 66,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "旭化成",
+   "industry": "化学",
+   "avg_salary_man": 800,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 63,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系49位"
+  },
+  {
+   "name": "電通",
+   "industry": "広告",
+   "avg_salary_man": 1150,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 70,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外; HD基準は更に高い"
+  },
+  {
+   "name": "博報堂",
+   "industry": "広告",
+   "avg_salary_man": 1100,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 69,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "全日本空輸（ANA）",
+   "industry": "航空",
+   "avg_salary_man": 800,
+   "new_grad_hires_per_year": 1500,
+   "difficulty": 62,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系6位/理系59位; CA・地上職含む; 総合職は難関"
+  },
+  {
+   "name": "日本航空（JAL）",
+   "industry": "航空",
+   "avg_salary_man": 830,
+   "new_grad_hires_per_year": 1300,
+   "difficulty": 62,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系12位/理系70位; CA含む"
+  },
+  {
+   "name": "任天堂",
+   "industry": "ゲーム",
+   "avg_salary_man": 1000,
+   "new_grad_hires_per_year": 100,
+   "difficulty": 72,
+   "hq_prefecture": "京都府",
+   "ranking_note": "マイナビ・日経2027卒 文系23位/理系16位"
+  },
+  {
+   "name": "バンダイナムコエンターテインメント",
+   "industry": "ゲーム・玩具",
+   "avg_salary_man": 1100,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 68,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 バンダイナムコエンターテインメント:文系65位/理系53位, バンダイ:文系15位/理系28位; HD平均"
+  },
+  {
+   "name": "コナミグループ",
+   "industry": "ゲーム",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 200,
+   "difficulty": 63,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系4位/理系13位"
+  },
+  {
+   "name": "セガ",
+   "industry": "ゲーム",
+   "avg_salary_man": 800,
+   "new_grad_hires_per_year": 200,
+   "difficulty": 62,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系5位/理系9位"
+  },
+  {
+   "name": "カプコン",
+   "industry": "ゲーム",
+   "avg_salary_man": 880,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 63,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 文系66位/理系47位"
+  },
+  {
+   "name": "アクセンチュア",
+   "industry": "コンサル",
+   "avg_salary_man": 900,
+   "new_grad_hires_per_year": 1500,
+   "difficulty": 66,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外; 外資・推定"
+  },
+  {
+   "name": "ニトリ",
+   "industry": "小売",
+   "avg_salary_man": 700,
+   "new_grad_hires_per_year": 700,
+   "difficulty": 55,
+   "hq_prefecture": "北海道",
+   "ranking_note": "マイナビ・日経2027卒 文系1位/理系14位; 2027卒文系1位(4年連続)"
+  },
+  {
+   "name": "ファーストリテイリング（ユニクロ）",
+   "industry": "小売・アパレル",
+   "avg_salary_man": 1050,
+   "new_grad_hires_per_year": 500,
+   "difficulty": 58,
+   "hq_prefecture": "山口県",
+   "ranking_note": "マイナビ・日経2027卒 文系22位; HD平均"
+  },
+  {
+   "name": "セブン-イレブン・ジャパン",
+   "industry": "小売・コンビニ",
+   "avg_salary_man": 640,
+   "new_grad_hires_per_year": 300,
+   "difficulty": 54,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "イオンリテール",
+   "industry": "小売",
+   "avg_salary_man": 600,
+   "new_grad_hires_per_year": 1000,
+   "difficulty": 52,
+   "hq_prefecture": "千葉県",
+   "ranking_note": "マイナビ・日経2027卒 文系27位"
+  },
+  {
+   "name": "良品計画",
+   "industry": "小売",
+   "avg_salary_man": 650,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 58,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系20位/理系87位"
+  },
+  {
+   "name": "ヤマト運輸",
+   "industry": "物流",
+   "avg_salary_man": 550,
+   "new_grad_hires_per_year": 1500,
+   "difficulty": 50,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外; セールスドライバー含む"
+  },
+  {
+   "name": "日本郵船",
+   "industry": "海運",
+   "avg_salary_man": 1400,
+   "new_grad_hires_per_year": 100,
+   "difficulty": 70,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "日本郵政グループ",
+   "industry": "郵便・物流・金融",
+   "avg_salary_man": 600,
+   "new_grad_hires_per_year": 2500,
+   "difficulty": 53,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系45位; 一般職含む"
+  },
+  {
+   "name": "三井不動産",
+   "industry": "不動産",
+   "avg_salary_man": 1300,
+   "new_grad_hires_per_year": 50,
+   "difficulty": 74,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "三菱地所",
+   "industry": "不動産",
+   "avg_salary_man": 1300,
+   "new_grad_hires_per_year": 50,
+   "difficulty": 74,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "大和ハウス工業",
+   "industry": "住宅・建設",
+   "avg_salary_man": 950,
+   "new_grad_hires_per_year": 800,
+   "difficulty": 57,
+   "hq_prefecture": "大阪府",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "鹿島建設",
+   "industry": "建設（スーパーゼネコン）",
+   "avg_salary_man": 1150,
+   "new_grad_hires_per_year": 300,
+   "difficulty": 64,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系38位"
+  },
+  {
+   "name": "大林組",
+   "industry": "建設（スーパーゼネコン）",
+   "avg_salary_man": 1100,
+   "new_grad_hires_per_year": 300,
+   "difficulty": 64,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系33位"
+  },
+  {
+   "name": "武田薬品工業",
+   "industry": "製薬",
+   "avg_salary_man": 1100,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 68,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 100位圏外"
+  },
+  {
+   "name": "中外製薬",
+   "industry": "製薬",
+   "avg_salary_man": 1200,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 69,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系78位"
+  },
+  {
+   "name": "第一三共",
+   "industry": "製薬",
+   "avg_salary_man": 1100,
+   "new_grad_hires_per_year": 150,
+   "difficulty": 68,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 理系89位"
+  },
+  {
+   "name": "JTB",
+   "industry": "旅行",
+   "avg_salary_man": 550,
+   "new_grad_hires_per_year": 300,
+   "difficulty": 56,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系7位"
+  },
+  {
+   "name": "TOPPANホールディングス",
+   "industry": "印刷",
+   "avg_salary_man": 880,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 60,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系38位/理系92位"
+  },
+  {
+   "name": "大日本印刷（DNP）",
+   "industry": "印刷",
+   "avg_salary_man": 800,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 60,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系48位"
+  },
+  {
+   "name": "オリエンタルランド",
+   "industry": "レジャー",
+   "avg_salary_man": 780,
+   "new_grad_hires_per_year": 100,
+   "difficulty": 64,
+   "hq_prefecture": "千葉県",
+   "ranking_note": "マイナビ・日経2027卒 文系39位; 正社員総合職"
+  },
+  {
+   "name": "アイリスオーヤマ",
+   "industry": "メーカー（生活用品）",
+   "avg_salary_man": 550,
+   "new_grad_hires_per_year": 700,
+   "difficulty": 55,
+   "hq_prefecture": "宮城県",
+   "ranking_note": "マイナビ・日経2027卒 文系13位/理系22位; 非上場・推定"
+  },
+  {
+   "name": "集英社",
+   "industry": "出版",
+   "avg_salary_man": 1300,
+   "new_grad_hires_per_year": 30,
+   "difficulty": 73,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系43位; 非上場・推定"
+  },
+  {
+   "name": "日本放送協会（NHK）",
+   "industry": "放送",
+   "avg_salary_man": 1000,
+   "new_grad_hires_per_year": 300,
+   "difficulty": 66,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系80位"
+  },
+  {
+   "name": "ゼンショーホールディングス",
+   "industry": "外食",
+   "avg_salary_man": 650,
+   "new_grad_hires_per_year": 400,
+   "difficulty": 50,
+   "hq_prefecture": "東京都",
+   "ranking_note": "マイナビ・日経2027卒 文系96位; HD平均; 店舗社員はより低い"
+  }
+ ],
+ "regional": {
+  "北海道": [
+   {
+    "name": "北洋銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 150
+   },
+   {
+    "name": "北海道電力",
+    "industry": "電力",
+    "avg_salary_man": 780,
+    "hires": 250
+   },
+   {
+    "name": "北海道新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 750,
+    "hires": 20
+   },
+   {
+    "name": "アークス",
+    "industry": "小売",
+    "avg_salary_man": 480,
+    "hires": 150
+   },
+   {
+    "name": "北海道ガス",
+    "industry": "ガス",
+    "avg_salary_man": 700,
+    "hires": 40
+   },
+   {
+    "name": "札幌信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 500,
+    "hires": 40
+   }
+  ],
+  "青森県": [
+   {
+    "name": "青森みちのく銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 560,
+    "hires": 80
+   },
+   {
+    "name": "東奥日報社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 8
+   },
+   {
+    "name": "青森朝日放送",
+    "industry": "テレビ",
+    "avg_salary_man": 600,
+    "hires": 4
+   },
+   {
+    "name": "青い森信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 450,
+    "hires": 20
+   }
+  ],
+  "岩手県": [
+   {
+    "name": "岩手銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 80
+   },
+   {
+    "name": "北日本銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 520,
+    "hires": 40
+   },
+   {
+    "name": "岩手日報社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 8
+   },
+   {
+    "name": "盛岡信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 450,
+    "hires": 20
+   }
+  ],
+  "宮城県": [
+   {
+    "name": "七十七銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 700,
+    "hires": 150
+   },
+   {
+    "name": "東北電力",
+    "industry": "電力",
+    "avg_salary_man": 800,
+    "hires": 350
+   },
+   {
+    "name": "河北新報社",
+    "industry": "新聞",
+    "avg_salary_man": 650,
+    "hires": 10
+   },
+   {
+    "name": "アイリスオーヤマ",
+    "industry": "メーカー",
+    "avg_salary_man": 550,
+    "hires": 700
+   },
+   {
+    "name": "仙台銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 520,
+    "hires": 40
+   }
+  ],
+  "秋田県": [
+   {
+    "name": "秋田銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 70
+   },
+   {
+    "name": "北都銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 520,
+    "hires": 40
+   },
+   {
+    "name": "秋田魁新報社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 6
+   },
+   {
+    "name": "TDK秋田",
+    "industry": "メーカー",
+    "avg_salary_man": 550,
+    "hires": 50
+   }
+  ],
+  "山形県": [
+   {
+    "name": "山形銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 70
+   },
+   {
+    "name": "荘内銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 550,
+    "hires": 40
+   },
+   {
+    "name": "山形新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 6
+   },
+   {
+    "name": "ヤマザワ",
+    "industry": "小売",
+    "avg_salary_man": 420,
+    "hires": 60
+   }
+  ],
+  "福島県": [
+   {
+    "name": "東邦銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 100
+   },
+   {
+    "name": "福島民報社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 8
+   },
+   {
+    "name": "ヨークベニマル",
+    "industry": "小売",
+    "avg_salary_man": 480,
+    "hires": 200
+   },
+   {
+    "name": "福島信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 450,
+    "hires": 20
+   }
+  ],
+  "茨城県": [
+   {
+    "name": "常陽銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 700,
+    "hires": 150
+   },
+   {
+    "name": "筑波銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 560,
+    "hires": 60
+   },
+   {
+    "name": "茨城新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 500,
+    "hires": 5
+   },
+   {
+    "name": "カスミ",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 150
+   },
+   {
+    "name": "日立製作所（日立事業所）",
+    "industry": "メーカー",
+    "avg_salary_man": 950,
+    "hires": 100
+   }
+  ],
+  "栃木県": [
+   {
+    "name": "足利銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 100
+   },
+   {
+    "name": "栃木銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 560,
+    "hires": 50
+   },
+   {
+    "name": "下野新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 6
+   },
+   {
+    "name": "カワチ薬品",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 150
+   }
+  ],
+  "群馬県": [
+   {
+    "name": "群馬銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 700,
+    "hires": 120
+   },
+   {
+    "name": "SUBARU（群馬製作所）",
+    "industry": "メーカー",
+    "avg_salary_man": 700,
+    "hires": 300
+   },
+   {
+    "name": "上毛新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 6
+   },
+   {
+    "name": "ベイシア",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 200
+   },
+   {
+    "name": "ヤマダホールディングス",
+    "industry": "小売",
+    "avg_salary_man": 500,
+    "hires": 600
+   }
+  ],
+  "埼玉県": [
+   {
+    "name": "埼玉りそな銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 700,
+    "hires": 250
+   },
+   {
+    "name": "武蔵野銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 80
+   },
+   {
+    "name": "埼玉新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 500,
+    "hires": 4
+   },
+   {
+    "name": "ヤオコー",
+    "industry": "小売",
+    "avg_salary_man": 500,
+    "hires": 300
+   },
+   {
+    "name": "しまむら",
+    "industry": "小売",
+    "avg_salary_man": 550,
+    "hires": 300
+   },
+   {
+    "name": "埼玉縣信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 550,
+    "hires": 60
+   }
+  ],
+  "千葉県": [
+   {
+    "name": "千葉銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 720,
+    "hires": 200
+   },
+   {
+    "name": "京葉銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 80
+   },
+   {
+    "name": "千葉興業銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 580,
+    "hires": 50
+   },
+   {
+    "name": "千葉日報社",
+    "industry": "新聞",
+    "avg_salary_man": 500,
+    "hires": 4
+   },
+   {
+    "name": "イオン",
+    "industry": "小売",
+    "avg_salary_man": 600,
+    "hires": 1000
+   },
+   {
+    "name": "京葉ガス",
+    "industry": "ガス",
+    "avg_salary_man": 700,
+    "hires": 30
+   }
+  ],
+  "東京都": [
+   {
+    "name": "きらぼし銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 150
+   },
+   {
+    "name": "東京ガス",
+    "industry": "ガス",
+    "avg_salary_man": 770,
+    "hires": 250
+   },
+   {
+    "name": "城南信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 600,
+    "hires": 80
+   },
+   {
+    "name": "東京メトロ",
+    "industry": "鉄道",
+    "avg_salary_man": 750,
+    "hires": 300
+   },
+   {
+    "name": "西武ホールディングス",
+    "industry": "鉄道",
+    "avg_salary_man": 750,
+    "hires": 150
+   }
+  ],
+  "神奈川県": [
+   {
+    "name": "横浜銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 750,
+    "hires": 250
+   },
+   {
+    "name": "神奈川新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 600,
+    "hires": 5
+   },
+   {
+    "name": "相鉄ホールディングス",
+    "industry": "鉄道",
+    "avg_salary_man": 700,
+    "hires": 60
+   },
+   {
+    "name": "横浜信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 550,
+    "hires": 50
+   },
+   {
+    "name": "テレビ神奈川",
+    "industry": "テレビ",
+    "avg_salary_man": 700,
+    "hires": 4
+   }
+  ],
+  "新潟県": [
+   {
+    "name": "第四北越銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 650,
+    "hires": 120
+   },
+   {
+    "name": "新潟日報社",
+    "industry": "新聞",
+    "avg_salary_man": 600,
+    "hires": 8
+   },
+   {
+    "name": "亀田製菓",
+    "industry": "メーカー",
+    "avg_salary_man": 600,
+    "hires": 40
+   },
+   {
+    "name": "コメリ",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 200
+   },
+   {
+    "name": "新潟放送",
+    "industry": "テレビ",
+    "avg_salary_man": 650,
+    "hires": 4
+   }
+  ],
+  "富山県": [
+   {
+    "name": "北陸銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 150
+   },
+   {
+    "name": "富山第一銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 580,
+    "hires": 30
+   },
+   {
+    "name": "北陸電力",
+    "industry": "電力",
+    "avg_salary_man": 750,
+    "hires": 150
+   },
+   {
+    "name": "北日本新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 600,
+    "hires": 6
+   },
+   {
+    "name": "YKK",
+    "industry": "メーカー",
+    "avg_salary_man": 700,
+    "hires": 250
+   },
+   {
+    "name": "不二越",
+    "industry": "メーカー",
+    "avg_salary_man": 600,
+    "hires": 80
+   }
+  ],
+  "石川県": [
+   {
+    "name": "北國銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 80
+   },
+   {
+    "name": "北國新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 600,
+    "hires": 8
+   },
+   {
+    "name": "コマツ（粟津工場）",
+    "industry": "メーカー",
+    "avg_salary_man": 850,
+    "hires": 100
+   },
+   {
+    "name": "大和（香林坊大和）",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 15
+   },
+   {
+    "name": "金沢信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 480,
+    "hires": 20
+   }
+  ],
+  "福井県": [
+   {
+    "name": "福井銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 60
+   },
+   {
+    "name": "福井新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 5
+   },
+   {
+    "name": "セーレン",
+    "industry": "メーカー",
+    "avg_salary_man": 550,
+    "hires": 60
+   },
+   {
+    "name": "福井信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 450,
+    "hires": 20
+   }
+  ],
+  "山梨県": [
+   {
+    "name": "山梨中央銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 70
+   },
+   {
+    "name": "山梨日日新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 5
+   },
+   {
+    "name": "ファナック",
+    "industry": "メーカー",
+    "avg_salary_man": 1200,
+    "hires": 250
+   },
+   {
+    "name": "山梨信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 450,
+    "hires": 20
+   }
+  ],
+  "長野県": [
+   {
+    "name": "八十二銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 700,
+    "hires": 150
+   },
+   {
+    "name": "信濃毎日新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 650,
+    "hires": 8
+   },
+   {
+    "name": "セイコーエプソン",
+    "industry": "メーカー",
+    "avg_salary_man": 750,
+    "hires": 400
+   },
+   {
+    "name": "ツルヤ",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 80
+   },
+   {
+    "name": "長野信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 480,
+    "hires": 25
+   }
+  ],
+  "岐阜県": [
+   {
+    "name": "十六銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 650,
+    "hires": 120
+   },
+   {
+    "name": "大垣共立銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 100
+   },
+   {
+    "name": "岐阜新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 5
+   },
+   {
+    "name": "バロー",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 250
+   },
+   {
+    "name": "イビデン",
+    "industry": "メーカー",
+    "avg_salary_man": 700,
+    "hires": 150
+   }
+  ],
+  "静岡県": [
+   {
+    "name": "静岡銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 780,
+    "hires": 150
+   },
+   {
+    "name": "スルガ銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 650,
+    "hires": 50
+   },
+   {
+    "name": "静岡新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 650,
+    "hires": 8
+   },
+   {
+    "name": "静岡ガス",
+    "industry": "ガス",
+    "avg_salary_man": 700,
+    "hires": 30
+   },
+   {
+    "name": "スズキ",
+    "industry": "メーカー",
+    "avg_salary_man": 680,
+    "hires": 500
+   },
+   {
+    "name": "ヤマハ",
+    "industry": "メーカー",
+    "avg_salary_man": 850,
+    "hires": 150
+   },
+   {
+    "name": "浜松いわた信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 550,
+    "hires": 50
+   }
+  ],
+  "愛知県": [
+   {
+    "name": "あいち銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 150
+   },
+   {
+    "name": "名古屋銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 100
+   },
+   {
+    "name": "中部電力",
+    "industry": "電力",
+    "avg_salary_man": 800,
+    "hires": 500
+   },
+   {
+    "name": "東邦ガス",
+    "industry": "ガス",
+    "avg_salary_man": 750,
+    "hires": 100
+   },
+   {
+    "name": "中日新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 900,
+    "hires": 30
+   },
+   {
+    "name": "トヨタ自動車",
+    "industry": "メーカー",
+    "avg_salary_man": 900,
+    "hires": 1500
+   },
+   {
+    "name": "岡崎信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 600,
+    "hires": 80
+   }
+  ],
+  "三重県": [
+   {
+    "name": "百五銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 650,
+    "hires": 100
+   },
+   {
+    "name": "三十三銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 80
+   },
+   {
+    "name": "伊勢新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 450,
+    "hires": 2
+   },
+   {
+    "name": "マックスバリュ東海",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 150
+   },
+   {
+    "name": "キオクシア四日市",
+    "industry": "メーカー",
+    "avg_salary_man": 800,
+    "hires": 300
+   }
+  ],
+  "滋賀県": [
+   {
+    "name": "滋賀銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 650,
+    "hires": 100
+   },
+   {
+    "name": "びわ湖放送",
+    "industry": "テレビ",
+    "avg_salary_man": 550,
+    "hires": 2
+   },
+   {
+    "name": "平和堂",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 250
+   },
+   {
+    "name": "滋賀中央信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 450,
+    "hires": 20
+   }
+  ],
+  "京都府": [
+   {
+    "name": "京都銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 700,
+    "hires": 150
+   },
+   {
+    "name": "京都中央信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 600,
+    "hires": 100
+   },
+   {
+    "name": "京都新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 650,
+    "hires": 8
+   },
+   {
+    "name": "任天堂",
+    "industry": "メーカー",
+    "avg_salary_man": 1000,
+    "hires": 100
+   },
+   {
+    "name": "京セラ",
+    "industry": "メーカー",
+    "avg_salary_man": 750,
+    "hires": 400
+   },
+   {
+    "name": "村田製作所",
+    "industry": "メーカー",
+    "avg_salary_man": 800,
+    "hires": 500
+   }
+  ],
+  "大阪府": [
+   {
+    "name": "関西みらい銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 150
+   },
+   {
+    "name": "池田泉州銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 100
+   },
+   {
+    "name": "関西電力",
+    "industry": "電力",
+    "avg_salary_man": 840,
+    "hires": 600
+   },
+   {
+    "name": "大阪ガス",
+    "industry": "ガス",
+    "avg_salary_man": 820,
+    "hires": 200
+   },
+   {
+    "name": "大阪シティ信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 550,
+    "hires": 80
+   },
+   {
+    "name": "毎日放送(MBS)",
+    "industry": "テレビ",
+    "avg_salary_man": 1300,
+    "hires": 15
+   }
+  ],
+  "兵庫県": [
+   {
+    "name": "みなと銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 560,
+    "hires": 60
+   },
+   {
+    "name": "神戸新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 700,
+    "hires": 10
+   },
+   {
+    "name": "川崎重工業",
+    "industry": "メーカー",
+    "avg_salary_man": 780,
+    "hires": 500
+   },
+   {
+    "name": "尼崎信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 550,
+    "hires": 50
+   },
+   {
+    "name": "サンテレビジョン",
+    "industry": "テレビ",
+    "avg_salary_man": 650,
+    "hires": 3
+   }
+  ],
+  "奈良県": [
+   {
+    "name": "南都銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 80
+   },
+   {
+    "name": "奈良新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 450,
+    "hires": 3
+   },
+   {
+    "name": "奈良中央信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 450,
+    "hires": 15
+   },
+   {
+    "name": "オークワ(奈良)",
+    "industry": "小売",
+    "avg_salary_man": 430,
+    "hires": 30
+   }
+  ],
+  "和歌山県": [
+   {
+    "name": "紀陽銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 80
+   },
+   {
+    "name": "テレビ和歌山",
+    "industry": "テレビ",
+    "avg_salary_man": 550,
+    "hires": 2
+   },
+   {
+    "name": "オークワ",
+    "industry": "小売",
+    "avg_salary_man": 430,
+    "hires": 100
+   },
+   {
+    "name": "きのくに信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 450,
+    "hires": 20
+   }
+  ],
+  "鳥取県": [
+   {
+    "name": "鳥取銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 550,
+    "hires": 30
+   },
+   {
+    "name": "日本海新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 450,
+    "hires": 3
+   },
+   {
+    "name": "日本海テレビ",
+    "industry": "テレビ",
+    "avg_salary_man": 600,
+    "hires": 3
+   },
+   {
+    "name": "鳥取信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 430,
+    "hires": 10
+   }
+  ],
+  "島根県": [
+   {
+    "name": "山陰合同銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 650,
+    "hires": 100
+   },
+   {
+    "name": "山陰中央新報社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 5
+   },
+   {
+    "name": "山陰中央テレビ",
+    "industry": "テレビ",
+    "avg_salary_man": 600,
+    "hires": 3
+   },
+   {
+    "name": "島根銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 500,
+    "hires": 15
+   }
+  ],
+  "岡山県": [
+   {
+    "name": "中国銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 680,
+    "hires": 100
+   },
+   {
+    "name": "トマト銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 550,
+    "hires": 30
+   },
+   {
+    "name": "山陽新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 650,
+    "hires": 6
+   },
+   {
+    "name": "天満屋",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 30
+   },
+   {
+    "name": "ベネッセコーポレーション",
+    "industry": "教育",
+    "avg_salary_man": 750,
+    "hires": 100
+   }
+  ],
+  "広島県": [
+   {
+    "name": "広島銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 680,
+    "hires": 150
+   },
+   {
+    "name": "中国電力",
+    "industry": "電力",
+    "avg_salary_man": 750,
+    "hires": 200
+   },
+   {
+    "name": "中国新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 700,
+    "hires": 8
+   },
+   {
+    "name": "マツダ",
+    "industry": "メーカー",
+    "avg_salary_man": 700,
+    "hires": 400
+   },
+   {
+    "name": "イズミ",
+    "industry": "小売",
+    "avg_salary_man": 500,
+    "hires": 200
+   },
+   {
+    "name": "広島信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 500,
+    "hires": 30
+   }
+  ],
+  "山口県": [
+   {
+    "name": "山口銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 80
+   },
+   {
+    "name": "西京銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 550,
+    "hires": 30
+   },
+   {
+    "name": "山口新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 450,
+    "hires": 2
+   },
+   {
+    "name": "ファーストリテイリング",
+    "industry": "小売",
+    "avg_salary_man": 1050,
+    "hires": 500
+   },
+   {
+    "name": "宇部興産(UBE)",
+    "industry": "メーカー",
+    "avg_salary_man": 750,
+    "hires": 80
+   }
+  ],
+  "徳島県": [
+   {
+    "name": "阿波銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 650,
+    "hires": 60
+   },
+   {
+    "name": "徳島大正銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 550,
+    "hires": 30
+   },
+   {
+    "name": "徳島新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 650,
+    "hires": 4
+   },
+   {
+    "name": "日亜化学工業",
+    "industry": "メーカー",
+    "avg_salary_man": 700,
+    "hires": 300
+   }
+  ],
+  "香川県": [
+   {
+    "name": "百十四銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 650,
+    "hires": 70
+   },
+   {
+    "name": "香川銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 550,
+    "hires": 30
+   },
+   {
+    "name": "四国新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 4
+   },
+   {
+    "name": "四国電力",
+    "industry": "電力",
+    "avg_salary_man": 750,
+    "hires": 120
+   },
+   {
+    "name": "マルナカ",
+    "industry": "小売",
+    "avg_salary_man": 420,
+    "hires": 60
+   }
+  ],
+  "愛媛県": [
+   {
+    "name": "伊予銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 700,
+    "hires": 100
+   },
+   {
+    "name": "愛媛銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 580,
+    "hires": 50
+   },
+   {
+    "name": "愛媛新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 600,
+    "hires": 5
+   },
+   {
+    "name": "フジ",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 150
+   },
+   {
+    "name": "今治造船",
+    "industry": "メーカー",
+    "avg_salary_man": 600,
+    "hires": 100
+   }
+  ],
+  "高知県": [
+   {
+    "name": "四国銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 60
+   },
+   {
+    "name": "高知銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 500,
+    "hires": 30
+   },
+   {
+    "name": "高知新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 600,
+    "hires": 4
+   },
+   {
+    "name": "サニーマート",
+    "industry": "小売",
+    "avg_salary_man": 400,
+    "hires": 30
+   }
+  ],
+  "福岡県": [
+   {
+    "name": "福岡銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 680,
+    "hires": 200
+   },
+   {
+    "name": "西日本シティ銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 150
+   },
+   {
+    "name": "九州電力",
+    "industry": "電力",
+    "avg_salary_man": 780,
+    "hires": 300
+   },
+   {
+    "name": "西日本新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 650,
+    "hires": 10
+   },
+   {
+    "name": "西部ガス",
+    "industry": "ガス",
+    "avg_salary_man": 650,
+    "hires": 40
+   },
+   {
+    "name": "トライアル",
+    "industry": "小売",
+    "avg_salary_man": 500,
+    "hires": 400
+   },
+   {
+    "name": "福岡ひびき信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 500,
+    "hires": 40
+   }
+  ],
+  "佐賀県": [
+   {
+    "name": "佐賀銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 580,
+    "hires": 50
+   },
+   {
+    "name": "佐賀新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 500,
+    "hires": 3
+   },
+   {
+    "name": "佐賀共栄銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 480,
+    "hires": 10
+   },
+   {
+    "name": "佐賀信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 430,
+    "hires": 10
+   }
+  ],
+  "長崎県": [
+   {
+    "name": "十八親和銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 580,
+    "hires": 80
+   },
+   {
+    "name": "長崎新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 500,
+    "hires": 4
+   },
+   {
+    "name": "三菱重工(長崎造船所)",
+    "industry": "メーカー",
+    "avg_salary_man": 950,
+    "hires": 100
+   },
+   {
+    "name": "たちばな信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 430,
+    "hires": 10
+   }
+  ],
+  "熊本県": [
+   {
+    "name": "肥後銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 650,
+    "hires": 100
+   },
+   {
+    "name": "熊本銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 520,
+    "hires": 30
+   },
+   {
+    "name": "熊本日日新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 600,
+    "hires": 6
+   },
+   {
+    "name": "JASM/ソニーセミコン(熊本)",
+    "industry": "メーカー",
+    "avg_salary_man": 750,
+    "hires": 300
+   },
+   {
+    "name": "鶴屋百貨店",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 30
+   }
+  ],
+  "大分県": [
+   {
+    "name": "大分銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 60
+   },
+   {
+    "name": "豊和銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 480,
+    "hires": 15
+   },
+   {
+    "name": "大分合同新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 4
+   },
+   {
+    "name": "トキハ",
+    "industry": "小売",
+    "avg_salary_man": 420,
+    "hires": 30
+   }
+  ],
+  "宮崎県": [
+   {
+    "name": "宮崎銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 600,
+    "hires": 60
+   },
+   {
+    "name": "宮崎太陽銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 500,
+    "hires": 20
+   },
+   {
+    "name": "宮崎日日新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 4
+   },
+   {
+    "name": "旭化成(延岡)",
+    "industry": "メーカー",
+    "avg_salary_man": 800,
+    "hires": 100
+   }
+  ],
+  "鹿児島県": [
+   {
+    "name": "鹿児島銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 620,
+    "hires": 80
+   },
+   {
+    "name": "南日本銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 480,
+    "hires": 20
+   },
+   {
+    "name": "南日本新聞社",
+    "industry": "新聞",
+    "avg_salary_man": 600,
+    "hires": 5
+   },
+   {
+    "name": "南日本放送(MBC)",
+    "industry": "テレビ",
+    "avg_salary_man": 700,
+    "hires": 4
+   },
+   {
+    "name": "鹿児島相互信用金庫",
+    "industry": "信用金庫",
+    "avg_salary_man": 450,
+    "hires": 20
+   }
+  ],
+  "沖縄県": [
+   {
+    "name": "琉球銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 550,
+    "hires": 60
+   },
+   {
+    "name": "沖縄銀行",
+    "industry": "地方銀行",
+    "avg_salary_man": 550,
+    "hires": 60
+   },
+   {
+    "name": "沖縄電力",
+    "industry": "電力",
+    "avg_salary_man": 700,
+    "hires": 60
+   },
+   {
+    "name": "琉球新報社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 5
+   },
+   {
+    "name": "沖縄タイムス社",
+    "industry": "新聞",
+    "avg_salary_man": 550,
+    "hires": 5
+   },
+   {
+    "name": "サンエー",
+    "industry": "小売",
+    "avg_salary_man": 450,
+    "hires": 150
+   }
+  ]
+ },
+ "industries": {
+  "new_grad_share_pct": {
+   "大卒": {
+    "農業，林業": 0.3,
+    "漁業": 0.0,
+    "鉱業，採石業，砂利採取業": 0.1,
+    "建設業": 5.3,
+    "製造業": 11.0,
+    "電気・ガス・熱供給・水道業": 0.6,
+    "情報通信業": 10.7,
+    "運輸業，郵便業": 2.8,
+    "卸売業，小売業": 14.4,
+    "金融業，保険業": 7.3,
+    "不動産業，物品賃貸業": 3.6,
+    "学術研究，専門・技術サービス業": 5.6,
+    "宿泊業，飲食サービス業": 1.8,
+    "生活関連サービス業，娯楽業": 2.5,
+    "教育，学習支援業": 7.5,
+    "医療，福祉": 12.3,
+    "複合サービス事業": 0.9,
+    "サービス業（他に分類されないもの）": 5.5,
+    "公務（他に分類されないもの）": 6.0,
+    "その他": 1.7
+   },
+   "高卒": {
+    "農業，林業": 0.8,
+    "漁業": 0.3,
+    "鉱業，採石業，砂利採取業": 0.1,
+    "建設業": 9.9,
+    "製造業": 39.9,
+    "電気・ガス・熱供給・水道業": 1.7,
+    "情報通信業": 1.0,
+    "運輸業，郵便業": 5.7,
+    "卸売業，小売業": 9.1,
+    "金融業，保険業": 1.3,
+    "不動産業，物品賃貸業": 0.6,
+    "学術研究，専門・技術サービス業": 1.7,
+    "宿泊業，飲食サービス業": 5.1,
+    "生活関連サービス業，娯楽業": 3.8,
+    "教育，学習支援業": 0.4,
+    "医療，福祉": 3.8,
+    "複合サービス事業": 1.5,
+    "サービス業（他に分類されないもの）": 3.9,
+    "公務（他に分類されないもの）": 8.3,
+    "その他": 1.1
+   }
+  },
+  "new_grad_share_notes": {
+   "大卒": "approx from memory (学校基本調査 令和5-6年度); 卒業者の就職者割合77.0% (令和7年3月卒, downloaded)",
+   "高卒": "学校基本調査 令和7年度 産業別就職者数 (2025年3月卒, 全日制+定時制, n=127,501) downloaded; 卒業者に占める就職者13.8%"
+  },
+  "wage_by_industry_2024": {
+   "鉱業，採石業，砂利採取業": {
+    "monthly_scheduled_k": 372.3,
+    "monthly_male_k": 380.1,
+    "monthly_female_k": 318.5,
+    "annual_est_man": 573
+   },
+   "建設業": {
+    "monthly_scheduled_k": 352.6,
+    "monthly_male_k": 365.6,
+    "monthly_female_k": 275.7,
+    "annual_est_man": 543
+   },
+   "製造業": {
+    "monthly_scheduled_k": 318.6,
+    "monthly_male_k": 344.0,
+    "monthly_female_k": 243.7,
+    "annual_est_man": 491
+   },
+   "電気・ガス・熱供給・水道業": {
+    "monthly_scheduled_k": 437.5,
+    "monthly_male_k": 451.5,
+    "monthly_female_k": 348.6,
+    "annual_est_man": 674
+   },
+   "情報通信業": {
+    "monthly_scheduled_k": 391.0,
+    "monthly_male_k": 412.3,
+    "monthly_female_k": 333.8,
+    "annual_est_man": 602
+   },
+   "運輸業，郵便業": {
+    "monthly_scheduled_k": 304.7,
+    "monthly_male_k": 312.4,
+    "monthly_female_k": 267.7,
+    "annual_est_man": 469
+   },
+   "卸売業，小売業": {
+    "monthly_scheduled_k": 343.6,
+    "monthly_male_k": 386.2,
+    "monthly_female_k": 266.5,
+    "annual_est_man": 529
+   },
+   "金融業，保険業": {
+    "monthly_scheduled_k": 410.6,
+    "monthly_male_k": 514.2,
+    "monthly_female_k": 323.6,
+    "annual_est_man": 632
+   },
+   "不動産業，物品賃貸業": {
+    "monthly_scheduled_k": 371.6,
+    "monthly_male_k": 416.0,
+    "monthly_female_k": 293.1,
+    "annual_est_man": 572
+   },
+   "学術研究，専門・技術サービス業": {
+    "monthly_scheduled_k": 401.8,
+    "monthly_male_k": 435.1,
+    "monthly_female_k": 321.3,
+    "annual_est_man": 619
+   },
+   "宿泊業，飲食サービス業": {
+    "monthly_scheduled_k": 269.5,
+    "monthly_male_k": 301.0,
+    "monthly_female_k": 233.7,
+    "annual_est_man": 415
+   },
+   "生活関連サービス業，娯楽業": {
+    "monthly_scheduled_k": 285.7,
+    "monthly_male_k": 318.3,
+    "monthly_female_k": 248.4,
+    "annual_est_man": 440
+   },
+   "教育，学習支援業": {
+    "monthly_scheduled_k": 376.2,
+    "monthly_male_k": 433.2,
+    "monthly_female_k": 323.5,
+    "annual_est_man": 579
+   },
+   "医療，福祉": {
+    "monthly_scheduled_k": 306.4,
+    "monthly_male_k": 368.5,
+    "monthly_female_k": 282.1,
+    "annual_est_man": 472
+   },
+   "複合サービス事業": {
+    "monthly_scheduled_k": 306.9,
+    "monthly_male_k": 333.7,
+    "monthly_female_k": 252.8,
+    "annual_est_man": 473
+   },
+   "サービス業（他に分類されないもの）": {
+    "monthly_scheduled_k": 285.8,
+    "monthly_male_k": 307.3,
+    "monthly_female_k": 248.4,
+    "annual_est_man": 440
+   }
+  },
+  "wage_by_company_size_2024": {
+   "大企業(1000人以上)": {
+    "monthly_scheduled_k": 364.5,
+    "monthly_male_k": 403.4,
+    "monthly_female_k": 296.6,
+    "annual_est_man": 590
+   },
+   "中企業(100-999人)": {
+    "monthly_scheduled_k": 323.1,
+    "monthly_male_k": 355.6,
+    "monthly_female_k": 271.3,
+    "annual_est_man": 491
+   },
+   "小企業(10-99人)": {
+    "monthly_scheduled_k": 299.3,
+    "monthly_male_k": 324.5,
+    "monthly_female_k": 255.5,
+    "annual_est_man": 425
+   }
+  },
+  "wage_overall_2024": {
+   "monthly_scheduled_k": 330.4,
+   "male_k": 363.1,
+   "female_k": 275.3,
+   "by_education_k": {
+    "高校": 288.9,
+    "専門学校": 306.9,
+    "高専・短大": 307.2,
+    "大学": 385.8,
+    "大学院": 497.0
+   },
+   "by_post_k": {
+    "部長級": 627.2,
+    "課長級": 512.0,
+    "係長級": 385.9
+   },
+   "regular_vs_nonregular_k": {
+    "正社員": 348.6,
+    "非正規": 233.1
+   },
+   "parttime_hourly_yen": 1476,
+   "tokyo_k": 403.7
+  },
+  "wage_notes": "monthly_* = 所定内給与 (千円/月, 一般労働者) 令和6年賃金構造基本統計調査 (downloaded). industry×size cross not in 概況; apply size ratio (中企業≈0.89, 小企業≈0.82 of 大企業) to industry values. annual_est_man is an ESTIMATE (所定内×~15.4 incl. overtime+bonus; size-specific factors 16.2/15.2/14.2).",
+  "starting_salary_2024_k": {
+   "大学院": 287.4,
+   "大卒": 248.3,
+   "高専・短大": 223.9,
+   "専門学校": 222.8,
+   "高卒": 197.5,
+   "by_sex": {
+    "男": {
+     "高卒": 200.5,
+     "専門": 219.3,
+     "短大": 231.0,
+     "大卒": 251.3,
+     "大学院": 290.2
+    },
+    "女": {
+     "高卒": 191.7,
+     "専門": 224.8,
+     "短大": 221.1,
+     "大卒": 244.9,
+     "大学院": 278.1
+    }
+   },
+   "note": "令和6年 賃金構造基本統計調査 新規学卒者 所定内給与 (千円/月), downloaded"
+  }
+ },
+ "public": {
+  "types": [
+   {
+    "name": "国家総合職",
+    "share_of_public_pct": 0.3,
+    "annual_hires": 2000,
+    "competition_ratio": 7.5,
+    "avg_salary_man": 700,
+    "starting_monthly_k": 250,
+    "difficulty": 72,
+    "note": "キャリア官僚; 30代後半で課長補佐、本省課長~1,200万"
+   },
+   {
+    "name": "国家一般職(大卒)",
+    "share_of_public_pct": 4.0,
+    "annual_hires": 8000,
+    "competition_ratio": 3.0,
+    "avg_salary_man": 670,
+    "starting_monthly_k": 232,
+    "difficulty": 60
+   },
+   {
+    "name": "地方上級(県庁)",
+    "share_of_public_pct": 8.0,
+    "annual_hires": 12000,
+    "competition_ratio": 4.5,
+    "avg_salary_man": 660,
+    "starting_monthly_k": 225,
+    "difficulty": 60
+   },
+   {
+    "name": "地方上級(政令市)",
+    "share_of_public_pct": 4.0,
+    "annual_hires": 5000,
+    "competition_ratio": 5.0,
+    "avg_salary_man": 680,
+    "starting_monthly_k": 225,
+    "difficulty": 60
+   },
+   {
+    "name": "市役所(一般市・町村)",
+    "share_of_public_pct": 20.0,
+    "annual_hires": 20000,
+    "competition_ratio": 5.5,
+    "avg_salary_man": 600,
+    "starting_monthly_k": 215,
+    "difficulty": 55
+   },
+   {
+    "name": "教員(公立小中高)",
+    "share_of_public_pct": 31.0,
+    "annual_hires": 36000,
+    "competition_ratio": 3.2,
+    "avg_salary_man": 700,
+    "starting_monthly_k": 240,
+    "difficulty": 52,
+    "note": "令和7年度試験 小学校~2.0倍, 中学~3.6倍, 高校~3.8倍(過去最低水準)"
+   },
+   {
+    "name": "警察官",
+    "share_of_public_pct": 9.0,
+    "annual_hires": 14000,
+    "competition_ratio": 4.0,
+    "avg_salary_man": 740,
+    "starting_monthly_k": 250,
+    "difficulty": 50
+   },
+   {
+    "name": "消防士",
+    "share_of_public_pct": 5.0,
+    "annual_hires": 6000,
+    "competition_ratio": 5.5,
+    "avg_salary_man": 680,
+    "starting_monthly_k": 230,
+    "difficulty": 52
+   },
+   {
+    "name": "自衛官",
+    "share_of_public_pct": 7.0,
+    "annual_hires": 10000,
+    "competition_ratio": 2.5,
+    "avg_salary_man": 620,
+    "starting_monthly_k": 230,
+    "difficulty": 45,
+    "note": "自衛官候補生・一般曹候補生; 募集計画を大きく下回る(充足率5割前後)"
+   }
+  ],
+  "notes": "All approx from memory (人事院 国家公務員試験実施状況, 総務省 地方公務員給与実態調査, 文科省 教員採用選考試験実施状況 2024-2025). share_of_public_pct = rough share of ~340万 public employees. 大卒就職者の約6%, 高卒就職者の約8.3%(downloaded R7) が公務."
+ },
+ "minwage": {
+  "latest": "令和8年度",
+  "yen": {
+   "北海道": 1131,
+   "青森県": 1090,
+   "岩手県": 1090,
+   "宮城県": 1098,
+   "秋田県": 1090,
+   "山形県": 1092,
+   "福島県": 1094,
+   "茨城県": 1136,
+   "栃木県": 1125,
+   "群馬県": 1120,
+   "埼玉県": 1196,
+   "千葉県": 1195,
+   "東京都": 1280,
+   "神奈川県": 1279,
+   "新潟県": 1108,
+   "富山県": 1119,
+   "石川県": 1113,
+   "福井県": 1112,
+   "山梨県": 1113,
+   "長野県": 1117,
+   "岐阜県": 1121,
+   "静岡県": 1154,
+   "愛知県": 1195,
+   "三重県": 1143,
+   "滋賀県": 1136,
+   "京都府": 1180,
+   "大阪府": 1231,
+   "兵庫県": 1172,
+   "奈良県": 1107,
+   "和歌山県": 1101,
+   "鳥取県": 1090,
+   "島根県": 1092,
+   "岡山県": 1104,
+   "広島県": 1141,
+   "山口県": 1101,
+   "徳島県": 1103,
+   "香川県": 1092,
+   "愛媛県": 1093,
+   "高知県": 1086,
+   "福岡県": 1114,
+   "佐賀県": 1095,
+   "長崎県": 1087,
+   "熊本県": 1092,
+   "大分県": 1096,
+   "宮崎県": 1085,
+   "鹿児島県": 1090,
+   "沖縄県": 1086
+  },
+  "national_weighted_avg": 1177,
+  "r7_yen": {
+   "北海道": 1075,
+   "青森県": 1029,
+   "岩手県": 1031,
+   "宮城県": 1038,
+   "秋田県": 1031,
+   "山形県": 1032,
+   "福島県": 1033,
+   "茨城県": 1074,
+   "栃木県": 1068,
+   "群馬県": 1063,
+   "埼玉県": 1141,
+   "千葉県": 1140,
+   "東京都": 1226,
+   "神奈川県": 1225,
+   "新潟県": 1050,
+   "富山県": 1062,
+   "石川県": 1054,
+   "福井県": 1053,
+   "山梨県": 1052,
+   "長野県": 1061,
+   "岐阜県": 1065,
+   "静岡県": 1097,
+   "愛知県": 1140,
+   "三重県": 1087,
+   "滋賀県": 1080,
+   "京都府": 1122,
+   "大阪府": 1177,
+   "兵庫県": 1116,
+   "奈良県": 1051,
+   "和歌山県": 1045,
+   "鳥取県": 1030,
+   "島根県": 1033,
+   "岡山県": 1047,
+   "広島県": 1085,
+   "山口県": 1043,
+   "徳島県": 1046,
+   "香川県": 1036,
+   "愛媛県": 1033,
+   "高知県": 1023,
+   "福岡県": 1057,
+   "佐賀県": 1030,
+   "長崎県": 1031,
+   "熊本県": 1034,
+   "大分県": 1035,
+   "宮崎県": 1023,
+   "鹿児島県": 1026,
+   "沖縄県": 1023
+  },
+  "r7_national_weighted_avg": 1121,
+  "note": "令和8年度(2026)答申額 (発効 2026-10-01〜12-02, 都道府県で異なる); r7 = 改定前(令和7年度)額. downloaded MHLW PDF"
+ },
+ "baito": {
+  "university": {
+   "work_rate_pct": 73.5,
+   "ever_worked_pct": 90.7,
+   "avg_monthly_earnings_yen": 59100,
+   "desired_monthly_yen": 81800,
+   "multi_job_pct": 32.8,
+   "days_per_week_mode": 3,
+   "hours_per_day_mode": 5,
+   "income_adjust_pct": 54.6,
+   "source_note": "マイナビ 大学生のアルバイト調査2025 (downloaded)",
+   "current_job_share_pct": {
+    "飲食・フード(接客・調理)": 29.0,
+    "販売(コンビニ・スーパー)": 16.5,
+    "教育(塾講師・家庭教師)": 15.9,
+    "飲食・フード(販売)": 6.9,
+    "アパレル販売": 3.3,
+    "軽作業(倉庫・引越し等)": 3.1,
+    "アミューズメント・レジャー": 3.1,
+    "イベントスタッフ": 3.0,
+    "その他販売": 2.4,
+    "事務・オフィスワーク": 2.1,
+    "医療・介護・福祉": 1.8,
+    "清掃": 1.6,
+    "その他サービス": 1.6,
+    "インストラクター": 1.3,
+    "ホテル・結婚式場": 1.2,
+    "営業": 0.9,
+    "保育": 0.8,
+    "コールセンター": 0.7,
+    "配送・ドライバー/デリバリー": 0.4,
+    "その他": 4.3
+   },
+   "ever_job_share_pct": {
+    "飲食・フード(接客・調理)": 49.1,
+    "教育(塾講師・家庭教師)": 25.8,
+    "販売(コンビニ・スーパー)": 25.0,
+    "飲食・フード(販売)": 21.2
+   }
+  },
+  "high_school": {
+   "work_rate_pct": 30,
+   "avg_monthly_earnings_yen": 35000,
+   "note": "approx from memory (民間各社調査: 高校生のバイト経験/実施率 2-4割, 学校禁止・届出制が多い). shares approx.",
+   "job_share_pct": {
+    "飲食店ホール/キッチン": 30,
+    "ファストフード": 15,
+    "コンビニ": 15,
+    "スーパー(レジ・品出し)": 15,
+    "カフェ": 6,
+    "回転寿司・ファミレス": 6,
+    "イベント・軽作業": 4,
+    "アパレル": 2,
+    "その他": 7
+   }
+  },
+  "typical_hourly_wage_yen": {
+   "コンビニ": 1150,
+   "飲食店ホール": 1180,
+   "居酒屋": 1250,
+   "カフェ": 1150,
+   "ファストフード": 1150,
+   "スーパー": 1130,
+   "塾講師": 1700,
+   "家庭教師": 2000,
+   "引越し": 1400,
+   "イベントスタッフ": 1250,
+   "倉庫・軽作業": 1250,
+   "アパレル": 1150,
+   "配達(Uber Eats等)": 1400,
+   "コールセンター": 1400,
+   "ホテル・ブライダル": 1250,
+   "清掃": 1150,
+   "note": "approx (memory) for 2025-26 national avg ≈ 1,200-1,250円 (リクルート/マイナビ/ディップ 募集時平均時給, 三大都市圏アルバイト平均 ~1,250円); scale by prefecture minwage. 高校生は最低賃金〜+50円程度, 22時以降不可."
+  }
+ },
+ "work_stats": {
+  "turnover_3yr_pct": {
+   "大卒": 33.8,
+   "短大等": 44.5,
+   "高卒": 37.9,
+   "中卒": 54.1,
+   "cohort": "令和4年3月卒 (downloaded MHLW)",
+   "year1_pct": {
+    "大卒": 12.1,
+    "高卒": 17.9,
+    "短大等": 19.3
+   },
+   "year1_r6_cohort_pct": {
+    "大卒": 10.1,
+    "高卒": 16.6
+   }
+  },
+  "job_change_rate_pct": 4.8,
+  "job_change_note": "転職者比率 (労働力調査 2024 ≈ 330万人/就業者) approx memory; 雇用動向調査 離職率 ~15%/年",
+  "avg_tenure_years": {
+   "all": 12.4,
+   "male": 13.9,
+   "female": 10.0,
+   "大企業": 13.5,
+   "中企業": 12.4,
+   "小企業": 11.2,
+   "source": "賃金構造基本統計調査2024 (downloaded)"
+  },
+  "nonregular_rate_pct": {
+   "total": 36.8,
+   "male": 22.5,
+   "female": 53.0,
+   "by_age_male": {
+    "15-24(在学除く)": 22,
+    "25-34": 14,
+    "35-44": 9,
+    "45-54": 9,
+    "55-64": 28,
+    "65+": 70
+   },
+   "by_age_female": {
+    "15-24(在学除く)": 25,
+    "25-34": 31,
+    "35-44": 49,
+    "45-54": 55,
+    "55-64": 65,
+    "65+": 82
+   },
+   "note": "approx memory, 労働力調査(詳細集計) 2024-2025"
+  },
+  "female_manager_ratio_pct": {
+   "課長相当以上": 13.1,
+   "係長相当以上": 15.0,
+   "note": "approx memory, 雇用均等基本調査 令和6年度"
+  },
+  "side_job_rate_pct": {
+   "actual": 4.8,
+   "want": 10.0,
+   "note": "就業構造基本調査2022 副業者305万人 (memory)"
+  },
+  "new_grad_job_offer_ratio": {
+   "大卒求人倍率_2026卒": 1.66,
+   "高卒求人倍率_2025": 4.1,
+   "note": "approx memory (リクルートワークス研究所 / 厚労省)"
+  }
+ },
+ "sources": [
+  {
+   "part": "companies",
+   "what": "マイナビ・日経 2027年卒 大学生就職企業人気ランキング 文系/理系 Top100 (ranking_note)",
+   "url": "https://career-research.mynavi.jp/wp-content/uploads/2026/04/mynavi_nikkei_ranking_2027.pdf",
+   "year": 2026,
+   "status": "downloaded"
+  },
+  {
+   "part": "companies",
+   "what": "マイナビ・日経 2026年卒 ランキング Top10",
+   "url": "https://career-research.mynavi.jp/reserch/20250415_95375/",
+   "year": 2025,
+   "status": "downloaded"
+  },
+  {
+   "part": "companies",
+   "what": "平均年間給与(有価証券報告書), 採用人数, 就職偏差値",
+   "url": null,
+   "year": "FY2023-2024",
+   "status": "FROM MEMORY / approximate; HD-level averages for holding companies; 東洋経済ランキング not fetched"
+  },
+  {
+   "part": "regional",
+   "what": "地方有力企業 (地銀・電力・新聞・スーパー・信金・メーカー) salaries/hires",
+   "url": null,
+   "year": "~2024",
+   "status": "FROM MEMORY / approximate "
+  },
+  {
+   "part": "industries",
+   "what": "学校基本調査 令和7年度 高等学校 産業別就職者数 (statInfId=000040393946)",
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040393946&fileKind=0",
+   "year": 2025,
+   "status": "downloaded"
+  },
+  {
+   "part": "industries",
+   "what": "学校基本調査 令和7年度 公表資料 (大卒就職者割合 77.0%, 高卒 13.8%)",
+   "url": "https://www.mext.go.jp/content/20251226-mxt_chousa01-000044291_01.pdf",
+   "year": 2025,
+   "status": "downloaded"
+  },
+  {
+   "part": "industries",
+   "what": "大卒 産業別就職者構成比",
+   "url": null,
+   "year": "2023-2024",
+   "status": "FROM MEMORY / approximate"
+  },
+  {
+   "part": "industries",
+   "what": "令和6年 賃金構造基本統計調査 概況 (産業別・企業規模別・学歴別・新規学卒者初任給)",
+   "url": "https://www.mhlw.go.jp/toukei/itiran/roudou/chingin/kouzou/z2024/index.html",
+   "year": 2024,
+   "status": "downloaded (annual_est_man is an estimate)"
+  },
+  {
+   "part": "public",
+   "what": "公務員 倍率・給与",
+   "url": null,
+   "year": "2024-2025",
+   "status": "FROM MEMORY / approximate"
+  },
+  {
+   "part": "minwage",
+   "what": "令和8年度 地域別最低賃金 全国一覧 (答申額, 改定前=令和7年度)",
+   "url": "https://www.mhlw.go.jp/content/11200000/001753404.pdf",
+   "year": 2026,
+   "status": "downloaded"
+  },
+  {
+   "part": "baito",
+   "what": "マイナビ 大学生のアルバイト調査2025",
+   "url": "https://career-research.mynavi.jp/wp-content/uploads/2025/05/daigakuseinoarubaitochosa2025-1.pdf",
+   "year": 2025,
+   "status": "downloaded"
+  },
+  {
+   "part": "baito",
+   "what": "高校生アルバイト率・職種, 職種別時給",
+   "url": null,
+   "year": "2025",
+   "status": "FROM MEMORY / approximate"
+  },
+  {
+   "part": "work_stats",
+   "what": "新規学卒就職者の在職期間別離職状況 (令和4年3月卒 3年以内)",
+   "url": "https://www.mhlw.go.jp/content/11800000/001318985.pdf",
+   "year": 2025,
+   "status": "downloaded"
+  },
+  {
+   "part": "work_stats",
+   "what": "非正規率・女性管理職比率・副業率・転職率・求人倍率",
+   "url": null,
+   "year": "2022-2025",
+   "status": "FROM MEMORY / approximate"
+  }
+ ]
+}

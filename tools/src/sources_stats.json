@@ -1,0 +1,174 @@
+{
+ "prefs": {
+  "births": {
+   "source": "厚生労働省 人口動態統計（確定数）令和6(2024)年",
+   "table": "第4表 人口動態総覧，都道府県別 出生数（日本における日本人、子の住所地）",
+   "year": 2024,
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei24/xls/16_hyoR06.xlsx"
+  },
+  "births_2025": {
+   "source": "厚生労働省 人口動態統計（確定数）令和7(2025)年",
+   "table": "第4表 都道府県別 出生数",
+   "year": 2025,
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei25/xls/06_hyoR07.xlsx",
+   "note": "2025確定の都道府県別「率」(出生率・婚姻率・TFR等)は2026年11月公表予定のため未公表"
+  },
+  "tfr / marriage_rate / divorce_rate / birth_rate": {
+   "source": "厚生労働省 人口動態統計（確定数）令和6(2024)年",
+   "table": "第5表 人口動態総覧（率），都道府県別",
+   "year": 2024,
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei24/xls/16_hyoR06.xlsx"
+  },
+  "marriages_2024 / divorces_2024": {
+   "source": "同上 第4表 婚姻件数・離婚件数",
+   "year": 2024,
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei24/xls/16_hyoR06.xlsx"
+  },
+  "tfr_2025 / marriage_rate_2025 / divorce_rate_2025": {
+   "source": "厚生労働省 令和7(2025)年人口動態統計月報年計（概数）",
+   "table": "第9表 人口動態総覧（率），都道府県別",
+   "year": 2025,
+   "status": "概数",
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/geppo/nengai25/xls/R7toukeihyou.xlsx"
+  },
+  "suicide_rate": {
+   "source": "厚生労働省 人口動態統計（確定数）令和6(2024)年 参考表",
+   "table": "表2 主な死因の死亡数・死亡率（人口10万対）・順位，都道府県別 — 自殺（死亡者の住所地）",
+   "year": 2024,
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei24/xls/17_sankouR06.xlsx",
+   "note": "人口動態統計ベース（警察庁「自殺統計」ではない）"
+  },
+  "le_m / le_f": {
+   "source": "厚生労働省 令和2年都道府県別生命表",
+   "table": "表1 平均寿命（令和2年）",
+   "year": 2020,
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/life/tdfk20/dl/tdfk20-08.xls"
+  },
+  "univ": {
+   "source": "文部科学省 学校基本調査",
+   "table": "令和7年度 大学 表16『出身高校の所在地県別 入学者数』(大学学部入学者, 過年度高卒者等含む) ÷ 令和4年3月の中学校等卒業者数（中学校 表257 + 義務教育学校 表268 + 中等教育学校前期課程 表302 + 特別支援学校中学部 表275）",
+   "year": 2025,
+   "url": [
+    "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040392735&fileKind=0",
+    "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032264942&fileKind=0",
+    "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032264953&fileKind=0",
+    "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032264987&fileKind=0",
+    "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000032264960&fileKind=0"
+   ],
+   "note": "文科省の定義（大学（学部）入学者数÷3年前の中学校等卒業者数）に沿って算出（computed）。同じ方法での全国値58.6%は公表値58.6%と一致。出身高校所在地ベースなので、広域通信制高校の所在県（茨城・山梨・沖縄など）は他県在住の生徒も含むため高めに出る点に注意"
+  },
+  "univ_tandai": {
+   "source": "文部科学省 学校基本調査",
+   "table": "上記 + 令和7年度 短期大学 表41『出身高校の所在地県別 入学者数』",
+   "year": 2025,
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040392980&fileKind=0",
+   "note": "大学（学部）・短大（本科）進学率, computed（算出値）。全国の公表値は61.4%"
+  },
+  "income_pc": {
+   "source": "内閣府 県民経済計算（2008SNA, 平成27年基準）",
+   "table": "総括表7 1人当たり県民所得（千円）, 令和4年度",
+   "year": "FY2022",
+   "url": "https://www.esri.cao.go.jp/jp/sna/data/data_list/kenmin/files/contents/tables/2022/soukatu7.xlsx",
+   "note": "令和5年度版は現時点で42都道府県分のみのため、47都道府県そろう最新の令和4年度を使用"
+  },
+  "unemp": {
+   "source": "総務省統計局 労働力調査 都道府県別結果（モデル推計値）",
+   "table": "2025年平均 完全失業率",
+   "year": 2025,
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031952605&fileKind=0"
+  },
+  "pop": {
+   "source": "総務省統計局 令和7年国勢調査 人口等基本集計（不詳補完値）",
+   "table": "第1-1表 男女別人口…（総人口, 2025年10月1日）",
+   "year": 2025,
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040506651&fileKind=0"
+  },
+  "gen3": {
+   "source": "総務省統計局 令和7年国勢調査 人口等基本集計（不詳補完値）",
+   "table": "第9-1表 3世代世帯数 ÷ 一般世帯数（総数）×100",
+   "year": 2025,
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040506684&fileKind=0",
+   "note": "指定の2020年ではなく、新しい2025年国勢調査を使用。算出値（computed）"
+  },
+  "unmarried_50_m / unmarried_50_f": {
+   "source": "総務省統計局 令和7年国勢調査 人口等基本集計（不詳補完値）",
+   "table": "第4-4表 配偶関係別人口構成比 — 45〜49歳と50〜54歳の未婚割合の平均（国籍総数）",
+   "year": 2025,
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040506667&fileKind=0",
+   "note": "指定の2020年ではなく2025年国勢調査を使用。算出値（computed）。全国は男29.88%・女19.58%（参考: 2020年は男28.25・女17.81, IPSS値, from memory）"
+  },
+  "smoking_m / smoking_f": {
+   "source": "厚生労働省 令和7年国民生活基礎調査（大規模調査年）",
+   "table": "健康票 第128表 世帯人員（20歳以上），喫煙の有無・性・年齢・都道府県別 —（毎日吸っている＋時々吸う日がある）÷ 総数",
+   "year": 2025,
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040475288&fileKind=1",
+   "note": "指定の2022年ではなく2025年調査を使用（新しい大規模調査年）。年齢調整なしの粗率。全国は男24.6%・女7.3%（概況の図20と一致）"
+  },
+  "homeownership": {
+   "source": "総務省統計局 令和5年住宅・土地統計調査",
+   "table": "住宅及び世帯に関する基本集計 結果の概要 付表『都道府県別の主な指標』持ち家住宅率（%）",
+   "year": 2023,
+   "url": "https://www.stat.go.jp/data/jyutaku/2023/pdf/kihon_gaiyou.pdf"
+  }
+ },
+ "national": {
+  "births / deaths / infant & neonatal mortality / marriages / divorces / tfr": {
+   "source": "厚生労働省 人口動態統計（確定数）令和7(2025)年",
+   "table": "第1表 人口動態総覧",
+   "year": 2025,
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/kakutei25/xls/06_hyoR07.xlsx"
+  },
+  "life_expectancy / lx / life_table_single_age / under5_mortality": {
+   "source": "厚生労働省 令和7年簡易生命表",
+   "table": "令和7年簡易生命表（男・女）",
+   "year": 2025,
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/life/life25/xls/life25-12.xlsx",
+   "note": "5歳未満死亡率は1−l5/100000から算出（computed）。簡易生命表は105歳以上が最終開区間のため、lx[110]はnull"
+  },
+  "mean_age_first_marriage / mean_age_mother_first_birth": {
+   "source": "厚生労働省 令和7(2025)年人口動態統計月報年計（概数）",
+   "table": "図表4-4 夫妻の平均初婚年齢 / 図表2-3 第1子出生時の母の平均年齢",
+   "year": 2025,
+   "status": "概数",
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/geppo/nengai25/xls/R7zuhyou.xlsx"
+  },
+  "causes_of_death_by_age": {
+   "source": "厚生労働省 令和7(2025)年人口動態統計月報年計（概数）",
+   "table": "第7表 死亡数・死亡率，性・年齢（5歳階級）・死因順位別（第5位まで）",
+   "year": 2025,
+   "status": "概数",
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/jinkou/geppo/nengai25/xls/R7toukeihyou.xlsx"
+  },
+  "univ_rate": {
+   "source": "文部科学省 学校基本調査 年次統計",
+   "table": "進学率（昭和23年〜）",
+   "year": 2025,
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000031852304&fileKind=0"
+  },
+  "unmarried_at_50": {
+   "source": "令和7年国勢調査 第4-4表（算出値）",
+   "year": 2025,
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040506667&fileKind=0",
+   "note": "2020年の参考値（男28.25/女17.81）はfrom memory"
+  },
+  "child_poverty_rate / avg_income_households_with_children": {
+   "source": "厚生労働省 2025(令和7)年国民生活基礎調査の概況",
+   "table": "II 各種世帯の所得等の状況 表7・表11",
+   "year": "2025年調査（所得は2024年）",
+   "url": "https://www.mhlw.go.jp/toukei/saikin/hw/k-tyosa/k-tyosa25/dl/03.pdf"
+  },
+  "smoking_rate": {
+   "source": "令和7年国民生活基礎調査 健康票 第128表（算出値）",
+   "year": 2025,
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040475288&fileKind=1"
+  },
+  "population_census_2025": {
+   "source": "令和7年国勢調査 第1-1表",
+   "year": 2025,
+   "url": "https://www.e-stat.go.jp/stat-search/file-download?statInfId=000040506651&fileKind=0"
+  }
+ },
+ "from_memory": [
+  "national.unmarried_at_50 note: 2020 reference values 28.25/17.81 only"
+ ]
+}

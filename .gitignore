@@ -1,0 +1,9 @@
+# runtime data (user-submitted lives)
+server/lives.db
+server/lives.db-*
+server/photos/
+server/ogcache/
+# large vendored fonts / python wheels
+server/fonts/
+*.whl
+__pycache__/
